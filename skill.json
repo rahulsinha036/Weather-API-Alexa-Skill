@@ -1,0 +1,56 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "summary": "Rs weather is a weather forecast skill which tells you the weather of your city",
+          "examplePhrases": [
+            "Alexa, Start rahul weather",
+            "Alexa, Launch rahul weather",
+            "Alexa, open rahul weather"
+          ],
+          "keywords": [
+            "Weather",
+            "weather",
+            "forecast",
+            "forecast",
+            "weatherrahul",
+            "rahulweather",
+            "rahulweatherforecasr",
+            "Rahul",
+            "rahul"
+          ],
+          "name": "Rs Weather",
+          "description": "Rs weather is a weather forecast skill which tells you the weather of your city. You can ask about the weather in any city in the world.",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "open rahul weather\ntipsy {name of your city}\ntell me {city} tipsy weather",
+      "category": "WEATHER",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:897730074359:function:6ee5150e-1bde-414f-875c-dd36cada88bd:Release_1"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-IN": {
+          "privacyPolicyUrl": "https://www.termsfeed.com/privacy-policy/30e49a52a0155c1cbff95ef5bb1040c7"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
